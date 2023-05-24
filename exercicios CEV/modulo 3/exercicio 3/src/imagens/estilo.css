@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --titulo:'Roboto', sans-serif;
+    --texto:'Dancing Script', cursive;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html body{
+    max-height: 100vh;
+    background-color: lightgray;
+    font-family: var(--padrao);
+
+}
+
+header{
+    background-color:black ;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--titulo);
+    font-size: 64px;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 40px;
+    font-family: var(--texto);
+    font-size: 32px;
+    line-height: 2em;
+}
+.normal{
+    background-color: aliceblue;
+}
+
+.imagem{
+    background-color: rgba(0, 0, 0, 0.13);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 10px 10px 30px 0px rgba(0, 0, 0, 0.562);
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.384);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.315);
+}
+
+#img01{
+    background-image: url(background001.jpg);
+}
+
+#img02{
+    background-image: url(background002.jpg);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
