@@ -1,0 +1,23 @@
+
+
+
+body{
+    background-image: url(../../src/imagens/back-tablet.jpg);
+}
+
+
+#phone{
+    display: none;
+}
+#tv{
+    display: none;
+}
+#print{
+    display: none;
+}
+#pc{
+    display: none;
+}
+#tablet{
+    display: block;
+}

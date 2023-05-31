@@ -1,0 +1,22 @@
+
+
+body{
+    background-image: url(../../src/imagens/back-tv.jpg);
+}
+
+
+#phone{
+    display: none;
+}
+#tv{
+    display: block;
+}
+#print{
+    display: none;
+}
+#pc{
+    display: none;
+}
+#tablet{
+    display: none;
+}

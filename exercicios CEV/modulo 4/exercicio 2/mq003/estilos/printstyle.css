@@ -1,0 +1,34 @@
+
+
+
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+}
+
+main{
+    border: 2px solid black;
+}
+
+main::after{
+    content: 'APenas Mais um tenste de media qyueries';
+    text-decoration: overline;
+}
+
+#phone{
+    display: none;
+}
+#tv{
+    display: none;
+}
+#print{
+    display: block;
+}
+#pc{
+    display: none;
+}
+#tablet{
+    display: none;
+}

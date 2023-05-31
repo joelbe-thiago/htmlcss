@@ -1,0 +1,22 @@
+
+
+
+body{
+    background-image: url(../../src/imagens/back-pc.jpg);
+}
+
+#phone{
+    display: none;
+}
+#tv{
+    display: none;
+}
+#print{
+    display: none;
+}
+#pc{
+    display: block;
+}
+#tablet{
+    display: none;
+}
