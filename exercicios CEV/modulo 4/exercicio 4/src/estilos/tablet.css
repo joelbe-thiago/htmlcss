@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+html, body{ 
+    background-image: linear-gradient(to top, #0003AD, #FACB00);
+}
+
+
+#login{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#imagen{
+    height: 100vh;
+    width: 70vw;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
